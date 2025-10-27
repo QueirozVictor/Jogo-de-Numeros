@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo dos Numeros</title>
+    <link rel="stylesheet" href="jogo.css">
+    <script src="jogo.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Jogo dos Numeros</h1>
+        <p>Esta pagina imagina um numero aleatorio de 1 a 100. <br>Tudo que você precisa fazer é digitar no campo abaixo um numero para tentar acertar!</p>
+
+        <p>Você tem 10 tentativas!</p>
+
+        <p>Advinhe qual numero estou pensando!!</p>
+    </header>
+    <main>
+        <input type="number" id="palpite" placeholder="Digite um numero">
+        <button onclick="verificarPalpite()">Chutar</button>
+        <p id="tentativas">Tentativas Restantes: 10</p>
+        <p id="mensagem"></p>
+    </main>
+</body>
+</html>
